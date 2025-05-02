@@ -1,0 +1,14 @@
+{
+    "FLOOR": {
+        "collision": false,
+        "color": [200, 200, 200]
+    },
+    "WALL": {
+        "collision": true,
+        "color": [50, 50, 50]
+    },
+    "PLAYER_SPAWN": {
+        "collision": false,
+        "color": [0, 255, 0]
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "caves": {
+        "allowed_tiles": ["FLOOR", "WALL"]
+    }
+}

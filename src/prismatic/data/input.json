@@ -1,0 +1,6 @@
+{
+    "MOVE_UP": "K_UP",
+    "MOVE_DOWN": "K_DOWN",
+    "MOVE_LEFT": "K_LEFT",
+    "MOVE_RIGHT": "K_RIGHT"
+}
