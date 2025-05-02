@@ -36,6 +36,24 @@ class MapLoader:
                 elif glyph == "S":
                     tile_data = self.tiles["PLAYER_SPAWN"]
                     player_spawn = (x * 32, y * 32)  # Store the player's spawn position in pixels
+                elif glyph == "L":  # Add reference for WATER tile
+                    tile_data = self.tiles["WATER"]
+                elif glyph == "V":
+                    tile_data = self.tiles["LAVA"]
+                elif glyph == ">":
+                    tile_data = self.tiles["DOWNSTAIRS"]
+                elif glyph == "<":
+                    tile_data = self.tiles["UPSTAIRS"]
+                elif glyph == "D":
+                    tile_data = self.tiles["DOOR_OPEN"]
+                elif glyph == "X":
+                    tile_data = self.tiles["DOOR_CLOSED"]
+                elif glyph == "H":
+                    tile_data = self.tiles["SWITCH_OFF"]
+                elif glyph == "O":
+                    tile_data = self.tiles["SWITCH_ON"]
+                elif glyph == "P":
+                    tile_data = self.tiles["PITFALL"]
                 else:
                     raise ValueError(f"Unknown glyph '{glyph}' in room layout.")
                 grid_row.append(Tile(glyph, tile_data["collision"], tuple(tile_data["color"])))

@@ -10,5 +10,41 @@
     "PLAYER_SPAWN": {
         "collision": false,
         "color": [0, 255, 0]
+    },
+    "WATER": {
+        "collision": false,
+        "color": [0, 0, 255]
+    },
+    "LAVA": {
+        "collision": true,
+        "color": [255, 0, 0]
+    },
+    "UPSTAIRS": {
+        "collision": false,
+        "color": [255, 255, 0]
+    },
+    "DOWNSTAIRS": {
+        "collision": false,
+        "color": [255, 0, 255]
+    },
+    "DOOR_OPEN": {
+        "collision": false,
+        "color": [139, 69, 19]
+    },
+    "DOOR_CLOSED": {
+        "collision": true,
+        "color": [139, 69, 19]
+    },
+    "SWITCH_OFF": {
+        "collision": false,
+        "color": [255, 255, 255]
+    },
+    "SWITCH_ON": {
+        "collision": false,
+        "color": [255, 255, 0]
+    },
+    "PITFALL": {
+        "collision": false,
+        "color": [0, 0, 0]
     }
 }

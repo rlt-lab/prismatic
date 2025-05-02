@@ -1,5 +1,6 @@
 import pygame
 import sys
+from pathlib import Path
 
 from src.prismatic.config import SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE, BLACK, FPS
 from src.prismatic.player import Player
@@ -7,6 +8,7 @@ from src.prismatic.render import RenderEngine
 from src.prismatic.input import handle_player_input  # Import input handling
 from src.prismatic.map.map_loader import MapLoader
 from src.prismatic.map.map_renderer import MapRenderer
+from src.prismatic.ui.message_box import MessageBox  # Import the MessageBox class
 
 def main():
     # Initialize pygame
@@ -29,6 +31,16 @@ def main():
     else:
         raise ValueError("No player spawn point ('S') found in the map!")
 
+    # Path to the PS2P font
+    font_path = Path(__file__).parent / "assets" / "fonts" / "ps2p.ttf"
+
+    # Create a message box
+    message_box = MessageBox(screen, 960, 224, font_path)
+
+    # Add some initial messages
+    message_box.add_message("Welcome to Prismatic!")
+    message_box.add_message("Use arrow keys to move.")
+
     # Clock to control the frame rate
     clock = pygame.time.Clock()
 
@@ -42,9 +54,9 @@ def main():
 
         # Handle player movement
         dx, dy = handle_player_input(events)
-        if dx != 0 or dy != 0:  # Debugging: Print movement deltas
-            print(f"Player movement: dx={dx}, dy={dy}")
-        player.move(dx, dy, grid)  # Pass the grid for collision checks
+        if dx != 0 or dy != 0:
+            message_box.add_message(f"Player moved: dx={dx}, dy={dy}")
+        player.move(dx, dy, grid)
 
         # Clear the screen
         screen.fill(BLACK)
@@ -54,6 +66,9 @@ def main():
 
         # Render the player
         player.draw(screen)
+
+        # Render the message box
+        message_box.render()
 
         # Update the display
         pygame.display.flip()

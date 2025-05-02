@@ -1,5 +1,5 @@
 {
-    "caves": {
+    "test_biome": {  
         "allowed_tiles": ["FLOOR", "WALL"]
     }
 }
