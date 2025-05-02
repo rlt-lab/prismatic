@@ -1,0 +1,10 @@
+{
+    "WATER_TILE": "You go swimming.",
+    "LEAVE_WATER": "You wade out to shore.",
+    "PITFALL": "You fell into a pit!",
+    "DOOR_OPEN": "You opened the door.",
+    "HIT_WALL": "You hit the solid wall. Ouch!",
+    "PLAYER_MOVE": "Player moved: dx={dx}, dy={dy}",
+    "WELCOME": "Welcome to Prismatic!",
+    "INSTRUCTIONS": "Use arrow keys to move."
+}

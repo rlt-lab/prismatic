@@ -38,35 +38,38 @@ def update_key_states(events):
                 if event.key == key:
                     key_states[action]["pressed"] = False
 
-def get_movement_deltas():
+def handle_player_input(events):
     """
-    Calculate movement deltas (dx, dy) based on key states.
-    :return: Tuple (dx, dy) representing movement direction.
+    Handle player input by updating key states and calculating movement deltas.
     """
+    update_key_states(events)
+    return _calculate_movement_deltas()
+
+def _calculate_movement_deltas():
+    """Calculate movement deltas (dx, dy) based on key states."""
     dx, dy = 0, 0
     current_time = time.time()
 
     for action, state in key_states.items():
-        if state["pressed"]:
-            time_since_last_move = current_time - state["last_move_time"]
-            if state["last_move_time"] == 0 or time_since_last_move >= KEY_REPEAT_DELAY or time_since_last_move >= KEY_REPEAT_INTERVAL:
-                if action == "MOVE_UP":
-                    dy = -1
-                elif action == "MOVE_DOWN":
-                    dy = 1
-                elif action == "MOVE_LEFT":
-                    dx = -1
-                elif action == "MOVE_RIGHT":
-                    dx = 1
-                state["last_move_time"] = current_time  # Update the last move time
+        if state["pressed"] and _can_move(state, current_time):
+            dx, dy = _update_deltas(action, dx, dy)
+            state["last_move_time"] = current_time
 
     return dx, dy
 
-def handle_player_input(events):
-    """
-    Handle player input by updating key states and calculating movement deltas.
-    :param events: The list of pygame events.
-    :return: Tuple (dx, dy) representing movement direction.
-    """
-    update_key_states(events)
-    return get_movement_deltas()
+def _can_move(state, current_time):
+    """Check if the player can move based on key repeat settings."""
+    time_since_last_move = current_time - state["last_move_time"]
+    return state["last_move_time"] == 0 or time_since_last_move >= KEY_REPEAT_DELAY or time_since_last_move >= KEY_REPEAT_INTERVAL
+
+def _update_deltas(action, dx, dy):
+    """Update movement deltas based on the action."""
+    if action == "MOVE_UP":
+        dy = -1
+    elif action == "MOVE_DOWN":
+        dy = 1
+    elif action == "MOVE_LEFT":
+        dx = -1
+    elif action == "MOVE_RIGHT":
+        dx = 1
+    return dx, dy
