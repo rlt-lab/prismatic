@@ -11,14 +11,14 @@ from src.prismatic.map.map_renderer import MapRenderer
 from src.prismatic.ui.message_box import MessageBox  # Import the MessageBox class
 
 def setup_game_window():
-    """Initialize pygame and set up the game window."""
+    """Set up the game window."""
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     pygame.display.set_caption(SCREEN_TITLE)
     return screen
 
 def setup_message_box(screen):
-    """Create and initialize the message box."""
+    """Initialize the message box."""
     font_path = Path(__file__).parent / "assets" / "fonts" / "ps2p.ttf"
     messages_path = Path(__file__).parent / "src" / "prismatic" / "data" / "messages.json"
     message_box = MessageBox(screen, 960, 224, font_path, messages_path=messages_path)
@@ -33,6 +33,7 @@ def setup_player(grid, player_spawn, message_box):
     raise ValueError("No player spawn point ('S') found in the map!")
 
 def main():
+    """Main game loop."""
     screen = setup_game_window()
     map_loader = MapLoader()
     grid, player_spawn = map_loader.load_room("test_room_1")
@@ -53,6 +54,7 @@ def main():
             message_box.add_message(f"Player moved: dx={dx}, dy={dy}")
         player.move(dx, dy, grid)
 
+        # Clear the screen and render all game elements
         screen.fill(BLACK)
         map_renderer.render(grid)
         player.draw(screen)

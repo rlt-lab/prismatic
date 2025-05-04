@@ -1,0 +1,351 @@
+{
+    "spritesheet": "assets/sprites/animals.png",
+    "grizzly_bear": {
+        "coordinates": [0,0],
+        "behavior": "hostile"
+    },
+    "black_bear": {
+        "coordinates": [0,1],
+        "behavior": "hostile"
+    },
+    "polar_bear": {
+        "coordinates": [0,2],
+        "behavior": "hostile"
+    },
+    "panda": {
+        "coordinates": [0,3],
+        "behavior": "docile"
+    },
+    "chimpanzee": {
+        "coordinates": [1,0],
+        "behavior": "hostile"
+    },
+    "gorilla": {
+        "coordinates": [1,1],
+        "behavior": "hostile"
+    },
+    "orangutan": {
+        "coordinates": [2,2],
+        "behavior": "docile"
+    },
+    "aye_aye": {
+        "coordinates": [3,0],
+        "behavior": "docile"
+    },
+    "gibbon": {
+        "coordinates": [3,1],
+        "behavior": "docile"
+    },
+    "mandrill": {
+        "coordinates": [3,2],
+        "behavior": "hostile"
+    },
+    "capuchin": {
+        "coordinates": [3,3],
+        "behavior": "docile"
+    },
+    "langur": {
+        "coordinates": [3,4],
+        "behavior": "docile"
+    },
+    "cat": {
+        "coordinates": [4,0],
+        "behavior": "docile"
+    },
+    "bobcat": {
+        "coordinates": [4,1],
+        "behavior": "hostile"
+    },
+    "cougar": {
+        "coordinates": [4,2],
+        "behavior": "hostile"
+    },
+    "cheetah": {
+        "coordinates": [4,3],
+        "behavior": "hostile"
+    },
+    "lynx": {
+        "coordinates": [4,4],
+        "behavior": "hostile"
+    },
+    "ocelot": {
+        "coordinates": [4,5],
+        "behavior": "hostile"
+    },
+    "male_lion": {
+        "coordinates": [4,6],
+        "behavior": "hostile"
+    },
+    "female_lion": {
+        "coordinates": [4,7],
+        "behavior": "hostile"
+    },
+    "dog": {
+        "coordinates": [5,0],
+        "behavior": "docile"
+    },
+    "puppy": {
+        "coordinates": [5,1],
+        "behavior": "docile"
+    },
+    "hyena": {
+        "coordinates": [5,2],
+        "behavior": "hostile"
+    },
+    "fox": {
+        "coordinates": [5,3],
+        "behavior": "docile"
+    },
+    "jackal": {
+        "coordinates": [5,4],
+        "behavior": "hostile"
+    },
+    "coyote": {
+        "coordinates": [5,5],
+        "behavior": "hostile"
+    },
+    "wolf": {
+        "coordinates": [5,6],
+        "behavior": "hostile"
+    },
+    "capybara": {
+        "coordinates": [6,0],
+        "behavior": "docile"
+    },
+    "beaver": {
+        "coordinates": [6,1],
+        "behavior": "docile"
+    },
+    "mink": {
+        "coordinates": [6,2],
+        "behavior": "docile"
+    },
+    "mongoose": {
+        "coordinates": [6,3],
+        "behavior": "hostile"
+    },
+    "marmot": {
+        "coordinates": [6,4],
+        "behavior": "docile"
+    },
+    "groundhog": {
+        "coordinates": [6,5],
+        "behavior": "docile"
+    },
+    "chinchilla": {
+        "coordinates": [6,6],
+        "behavior": "docile"
+    },
+    "echidna": {
+        "coordinates": [6,7],
+        "behavior": "docile"
+    },
+    "aardvark": {
+        "coordinates": [7,0],
+        "behavior": "docile"
+    },
+    "armadillo": {
+        "coordinates": [7,1],
+        "behavior": "docile"
+    },
+    "badger": {
+        "coordinates": [7,2],
+        "behavior": "hostile"
+    },
+    "honeybadger": {
+        "coordinates": [7,3],
+        "behavior": "hostile"
+    },
+    "coati": {
+        "coordinates": [7,4],
+        "behavior": "docile"
+    },
+    "opossum": {
+        "coordinates": [7,5],
+        "behavior": "docile"
+    },
+    "rabbit": {
+        "coordinates": [7,6],
+        "behavior": "docile"
+    },
+    "hare": {
+        "coordinates": [7,7],
+        "behavior": "docile"
+    },
+    "rat": {
+        "coordinates": [7,8],
+        "behavior": "docile"
+    },
+    "snake": {
+        "coordinates": [8,0],
+        "behavior": "hostile"
+    },
+    "cobra": {
+        "coordinates": [8,1],
+        "behavior": "hostile"
+    },
+    "kingsnake": {
+        "coordinates": [8,2],
+        "behavior": "hostile"
+    },
+    "black_mamba": {
+        "coordinates": [8,3],
+        "behavior": "hostile"
+    },
+    "alligator": {
+        "coordinates": [9,0],
+        "behavior": "hostile"
+    },
+    "monitor_lizard": {
+        "coordinates": [9,1],
+        "behavior": "hostile"
+    },
+    "iguana": {
+        "coordinates": [9,2],
+        "behavior": "docile"
+    },
+    "tortoise": {
+        "coordinates": [9,3],
+        "behavior": "docile"
+    },
+    "snapping_turtle": {
+        "coordinates": [9,4],
+        "behavior": "hostile"
+    },
+    "alligator_snapping_turtle": {
+        "coordinates": [9,5],
+        "behavior": "hostile"
+    },
+    "cow": {
+        "coordinates": [10,0],
+        "behavior": "docile"
+    },
+    "horse": {
+        "coordinates": [10,1],
+        "behavior": "docile"
+    },
+    "donkey": {
+        "coordinates": [10,2],
+        "behavior": "docile"
+    },
+    "mule": {
+        "coordinates": [10,3],
+        "behavior": "docile"
+    },
+    "alpaca": {
+        "coordinates": [10,4],
+        "behavior": "docile"
+    },
+    "llama": {
+        "coordinates": [10,5],
+        "behavior": "docile"
+    },
+    "pig": {
+        "coordinates": [10,6],
+        "behavior": "docile"
+    },
+    "boar": {
+        "coordinates": [10,7],
+        "behavior": "hostile"
+    },
+    "camel": {
+        "coordinates": [11,0],
+        "behavior": "docile"
+    },
+    "reindeer_caribou": {
+        "coordinates": [11,1],
+        "behavior": "docile"
+    },
+    "water_buffalo": {
+        "coordinates": [11,2],
+        "behavior": "hostile"
+    },
+    "yak": {
+        "coordinates": [11,3],
+        "behavior": "docile"
+    },
+    "seagull": {
+        "coordinates": [12,0],
+        "behavior": "docile"
+    },
+    "barn_owl": {
+        "coordinates": [12,1],
+        "behavior": "docile"
+    },
+    "common_buzzard": {
+        "coordinates": [12,2],
+        "behavior": "docile"
+    },
+    "kangaroo": {
+        "coordinates": [13,0],
+        "behavior": "hostile"
+    },
+    "koala": {
+        "coordinates": [13,1],
+        "behavior": "docile"
+    },
+    "penguin": {
+        "coordinates": [14,0],
+        "behavior": "docile"
+    },
+    "little_penguin": {
+        "coordinates": [14,1],
+        "behavior": "docile"
+    },
+    "cassowary": {
+        "coordinates": [14,2],
+        "behavior": "hostile"
+    },
+    "emu": {
+        "coordinates": [14,3],
+        "behavior": "hostile"
+    },
+    "chicken": {
+        "coordinates": [15,0],
+        "behavior": "docile"
+    },
+    "rooster": {
+        "coordinates": [15,1],
+        "behavior": "docile"
+    },
+    "mallard_duck": {
+        "coordinates": [15,2],
+        "behavior": "docile"
+    },
+    "swan": {
+        "coordinates": [15,3],
+        "behavior": "hostile"
+    },
+    "turkey": {
+        "coordinates": [15,4],
+        "behavior": "docile"
+    },
+    "guineafowl": {
+        "coordinates": [15,5],
+        "behavior": "docile"
+    },
+    "peacock": {
+        "coordinates": [15,6],
+        "behavior": "docile"
+    },
+    "goat": {
+        "coordinates": [16,0],
+        "behavior": "docile"
+    },
+    "mountain_goat": {
+        "coordinates": [16,1],
+        "behavior": "docile"
+    },
+    "ibex": {
+        "coordinates": [16,2],
+        "behavior": "docile"
+    },
+    "sheep_ram": {
+        "coordinates": [16,3],
+        "behavior": "docile"
+    },
+    "sheep_ewe": {
+        "coordinates": [16,4],
+        "behavior": "docile"
+    }
+}

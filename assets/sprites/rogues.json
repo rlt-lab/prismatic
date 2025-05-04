@@ -1,0 +1,123 @@
+{
+    "spritesheet": "assets/sprites/rogues.png",
+    "dwarf": {
+        "coordinates": [0,0]
+    },
+    "elf": {
+        "coordinates": [0,1]
+    },
+    "ranger": {
+        "coordinates": [0,2]
+    },
+    "rogue": {
+        "coordinates": [0,3]
+    },
+    "bandit": {
+        "coordinates": [0,4]
+    },
+    "knight": {
+        "coordinates": [1,0]
+    },
+    "male_fighter": {
+        "coordinates": [1,1]
+    },
+    "female_knight": {
+        "coordinates": [1,2]
+    },
+    "female_knight_helmetless": {
+        "coordinates": [1,3]
+    },
+    "shield_knight": {
+        "coordinates": [1,4]
+    },
+    "monk": {
+        "coordinates": [2,0]
+    },
+    "priest": {
+        "coordinates": [2,1]
+    },
+    "female_war_cleric": {
+        "coordinates": [2,2]
+    },
+    "male_war_cleric": {
+        "coordinates": [2,3]
+    },
+    "templar": {
+        "coordinates": [2,4]
+    },
+    "schema_monk": {
+        "coordinates": [2,5]
+    },
+    "elder_schema_monk": {
+        "coordinates": [2,6]
+    },
+    "male_barbarian": {
+        "coordinates": [3,0]
+    },
+    "male_winter_barbarian": {
+        "coordinates": [3,1]
+    },
+    "female_winter_barbarian": {
+        "coordinates": [3,2]
+    },
+    "swordsman": {
+        "coordinates": [3,3]
+    },
+    "fencer": {
+        "coordinates": [3,4]
+    },
+    "female_barbarian": {
+        "coordinates": [3,5]
+    },
+    "female_wizard": {
+        "coordinates": [4,0]
+    },
+    "male_wizard": {
+        "coordinates": [4,1]
+    },
+    "druid": {
+        "coordinates": [4,2]
+    },
+    "desert_sage": {
+        "coordinates": [4,3]
+    },
+    "dwarf_mage": {
+        "coordinates": [4,4]
+    },
+    "warlock": {
+        "coordinates": [5,5]
+    },
+    "farmer_wheat_thresher": {
+        "coordinates": [6,0]
+    },
+    "farmer_scythe": {
+        "coordinates": [6,1]
+    },
+    "farmer_pitchfork": {
+        "coordinates": [6,2]
+    },
+    "baker": {
+        "coordinates": [6,3]
+    },
+    "blacksmith": {
+        "coordinates": [6,4]
+    },
+    "scholar": {
+        "coordinates": [6,5]
+    },
+    "peasant_coalburner": {
+        "coordinates": [7,0]
+    },
+    "peasant": {
+        "coordinates": [7,1]
+    },
+    "shopkeep": {
+        "coordinates": [7,2]
+    },
+    "elderly_woman": {
+        "coordinates": [7,3]
+    },
+    "elderly_man": {
+        "coordinates": [7,4]
+    }
+}

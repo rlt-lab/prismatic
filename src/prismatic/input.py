@@ -22,10 +22,7 @@ key_states = {
 }
 
 def update_key_states(events):
-    """
-    Update the key states based on pygame events.
-    :param events: The list of pygame events.
-    """
+    """Update key states from events."""
     current_time = time.time()
     for event in events:
         if event.type == pygame.KEYDOWN:
@@ -39,14 +36,12 @@ def update_key_states(events):
                     key_states[action]["pressed"] = False
 
 def handle_player_input(events):
-    """
-    Handle player input by updating key states and calculating movement deltas.
-    """
+    """Handle player input and return movement."""
     update_key_states(events)
     return _calculate_movement_deltas()
 
 def _calculate_movement_deltas():
-    """Calculate movement deltas (dx, dy) based on key states."""
+    """Calculate movement deltas."""
     dx, dy = 0, 0
     current_time = time.time()
 
@@ -58,18 +53,27 @@ def _calculate_movement_deltas():
     return dx, dy
 
 def _can_move(state, current_time):
-    """Check if the player can move based on key repeat settings."""
+    """Check if movement is allowed."""
     time_since_last_move = current_time - state["last_move_time"]
     return state["last_move_time"] == 0 or time_since_last_move >= KEY_REPEAT_DELAY or time_since_last_move >= KEY_REPEAT_INTERVAL
 
 def _update_deltas(action, dx, dy):
-    """Update movement deltas based on the action."""
-    if action == "MOVE_UP":
-        dy = -1
-    elif action == "MOVE_DOWN":
-        dy = 1
-    elif action == "MOVE_LEFT":
-        dx = -1
-    elif action == "MOVE_RIGHT":
-        dx = 1
-    return dx, dy
+    """Update movement deltas."""
+    movement_map = {
+        "MOVE_UP": (0, -1),
+        "MOVE_DOWN": (0, 1),
+        "MOVE_LEFT": (-1, 0),
+        "MOVE_RIGHT": (1, 0),
+    }
+    delta = movement_map.get(action, (0, 0))
+    return dx + delta[0], dy + delta[1]
+
+def reset_key_states():
+    """Reset all key states to unpressed."""
+    for state in key_states.values():
+        state["pressed"] = False
+        state["last_move_time"] = 0
+
+def get_key_state(action):
+    """Get the current state of a specific key."""
+    return key_states.get(action, {"pressed": False})["pressed"]

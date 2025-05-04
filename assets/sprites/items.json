@@ -1,0 +1,748 @@
+{
+    "spritesheet": "assets/sprites/items.png",
+    "dagger": {
+        "coordinates": [0,0],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "short_sword": {
+        "coordinates": [0,1],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "short_sword_2": {
+        "coordinates": [0,2],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "long_sword": {
+        "coordinates": [0,3],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "bastard_sword": {
+        "coordinates": [0,4],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "zweihander": {
+        "coordinates": [0,5],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "sanguine_dagger": {
+        "coordinates": [0,6],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "magic_dagger": {
+        "coordinates": [0,7],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "crystal_sword": {
+        "coordinates": [0,8],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "evil_sword": {
+        "coordinates": [0,9],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "flame_sword": {
+        "coordinates": [0,10],
+        "type": "weapon",
+        "rarity": "legendary"
+    },
+    "wide_short_sword": {
+        "coordinates": [1,0],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "wide_long_sword": {
+        "coordinates": [1,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "rapier": {
+        "coordinates": [1,2],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "long_rapier": {
+        "coordinates": [1,3],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "flamberge": {
+        "coordinates": [1,4],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "large_flamberge": {
+        "coordinates": [1,5],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "great_sword": {
+        "coordinates": [1,6],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "shotel": {
+        "coordinates": [2,0],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "scimitar": {
+        "coordinates": [2,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "large_scimitar": {
+        "coordinates": [2,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "great_scimitar": {
+        "coordinates": [2,3],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "kukri": {
+        "coordinates": [2,4],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "hand_axe": {
+        "coordinates": [3,0],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "battle_axe": {
+        "coordinates": [3,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "halberd": {
+        "coordinates": [3,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "great_axe": {
+        "coordinates": [3,3],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "giant_axe": {
+        "coordinates": [3,4],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "hatchet": {
+        "coordinates": [3,5],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "woodcutters_axe": {
+        "coordinates": [3,6],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "blacksmiths_hammer": {
+        "coordinates": [4,0],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "short_warhammer": {
+        "coordinates": [4,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "long_warhammer": {
+        "coordinates": [4,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "hammer": {
+        "coordinates": [4,3],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "great_hammer": {
+        "coordinates": [4,4],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "mace_1": {
+        "coordinates": [5,0],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "mace_2": {
+        "coordinates": [5,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "great_mace": {
+        "coordinates": [5,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "spiked_bat": {
+        "coordinates": [5,3],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "spear": {
+        "coordinates": [6,0],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "short_spear": {
+        "coordinates": [6,1],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "pitchfork": {
+        "coordinates": [6,2],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "trident": {
+        "coordinates": [6,3],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "magic_spear": {
+        "coordinates": [6,4],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "flail_1": {
+        "coordinates": [7,0],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "flail_2": {
+        "coordinates": [7,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "flail_3": {
+        "coordinates": [7,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "club": {
+        "coordinates": [8,0],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "spiked_club": {
+        "coordinates": [8,1],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "great_club": {
+        "coordinates": [8,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "club_with_nails": {
+        "coordinates": [8,3],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "crossbow": {
+        "coordinates": [9,0],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "short_bow": {
+        "coordinates": [9,1],
+        "type": "weapon",
+        "rarity": "common"
+    },
+    "long_bow": {
+        "coordinates": [9,2],
+        "type": "weapon",
+        "rarity": "uncommon"
+    },
+    "long_bow_2": {
+        "coordinates": [9,3],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "large_crossbow": {
+        "coordinates": [9,4],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "crystal_staff": {
+        "coordinates": [10,0],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "holy_staff": {
+        "coordinates": [10,1],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "druid_staff": {
+        "coordinates": [10,2],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "blue_staff": {
+        "coordinates": [10,3],
+        "type": "weapon",
+        "rarity": "rare"
+    },
+    "golden_staff": {
+        "coordinates": [10,4],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "red_crystal_staff": {
+        "coordinates": [10,5],
+        "type": "weapon",
+        "rarity": "legendary"
+    },
+    "flame_staff": {
+        "coordinates": [10,6],
+        "type": "weapon",
+        "rarity": "legendary"
+    },
+    "blue_crystal_staff": {
+        "coordinates": [10,7],
+        "type": "weapon",
+        "rarity": "legendary"
+    },
+    "cross_staff": {
+        "coordinates": [10,8],
+        "type": "weapon",
+        "rarity": "epic"
+    },
+    "saints_staff": {
+        "coordinates": [10,9],
+        "type": "weapon",
+        "rarity": "legendary"
+    },
+    "buckler": {
+        "coordinates": [11,0],
+        "type": "shield",
+        "rarity": "common"
+    },
+    "kite_shield": {
+        "coordinates": [11,1],
+        "type": "shield",
+        "rarity": "uncommon"
+    },
+    "cross_shield": {
+        "coordinates": [11,2],
+        "type": "shield",
+        "rarity": "rare"
+    },
+    "dark_shield": {
+        "coordinates": [11,3],
+        "type": "shield",
+        "rarity": "epic"
+    },
+    "round_shield": {
+        "coordinates": [11,4],
+        "type": "shield",
+        "rarity": "common"
+    },
+    "buckler_2": {
+        "coordinates": [11,5],
+        "type": "shield",
+        "rarity": "uncommon"
+    },
+    "large_shield": {
+        "coordinates": [11,6],
+        "type": "shield",
+        "rarity": "rare"
+    },
+    "cloth_armor": {
+        "coordinates": [12,0],
+        "type": "shirt",
+        "rarity": "common"
+    },
+    "leather_armor": {
+        "coordinates": [12,1],
+        "type": "shirt",
+        "rarity": "uncommon"
+    },
+    "robe": {
+        "coordinates": [12,2],
+        "type": "shirt",
+        "rarity": "uncommon"
+    },
+    "chain_mail": {
+        "coordinates": [12,3],
+        "type": "shirt",
+        "rarity": "rare"
+    },
+    "scale_mail": {
+        "coordinates": [12,4],
+        "type": "shirt",
+        "rarity": "rare"
+    },
+    "chest_plate": {
+        "coordinates": [12,5],
+        "type": "shirt",
+        "rarity": "epic"
+    },
+    "cloth_gloves": {
+        "coordinates": [13,0],
+        "type": "gloves",
+        "rarity": "common"
+    },
+    "leather_gloves": {
+        "coordinates": [13,1],
+        "type": "gloves",
+        "rarity": "uncommon"
+    },
+    "blue_cloth_gloves": {
+        "coordinates": [13,2],
+        "type": "gloves",
+        "rarity": "uncommon"
+    },
+    "gauntlets": {
+        "coordinates": [13,3],
+        "type": "gloves",
+        "rarity": "rare"
+    },
+    "shoes": {
+        "coordinates": [14,0],
+        "type": "boots",
+        "rarity": "common"
+    },
+    "leather_boots": {
+        "coordinates": [14,1],
+        "type": "boots",
+        "rarity": "uncommon"
+    },
+    "high_blue_boots": {
+        "coordinates": [14,2],
+        "type": "boots",
+        "rarity": "rare"
+    },
+    "greaves": {
+        "coordinates": [14,3],
+        "type": "boots",
+        "rarity": "epic"
+    },
+    "cloth_hood": {
+        "coordinates": [15,0],
+        "type": "hat",
+        "rarity": "common"
+    },
+    "leather_helm": {
+        "coordinates": [15,1],
+        "type": "hat",
+        "rarity": "uncommon"
+    },
+    "wide_brimmed_hat": {
+        "coordinates": [15,2],
+        "type": "hat",
+        "rarity": "uncommon"
+    },
+    "chain_mail_coif": {
+        "coordinates": [15,3],
+        "type": "hat",
+        "rarity": "rare"
+    },
+    "helm": {
+        "coordinates": [15,4],
+        "type": "hat",
+        "rarity": "uncommon"
+    },
+    "helm_with_chain_mail": {
+        "coordinates": [15,5],
+        "type": "hat",
+        "rarity": "rare"
+    },
+    "plate_helm_1": {
+        "coordinates": [15,6],
+        "type": "hat",
+        "rarity": "rare"
+    },
+    "plate_helm_2": {
+        "coordinates": [15,7],
+        "type": "hat",
+        "rarity": "epic"
+    },
+    "red_pendant": {
+        "coordinates": [16,0],
+        "type": "pendant",
+        "rarity": "uncommon"
+    },
+    "metal_pendant": {
+        "coordinates": [16,1],
+        "type": "pendant",
+        "rarity": "common"
+    },
+    "crystal_pendant": {
+        "coordinates": [16,2],
+        "type": "pendant",
+        "rarity": "rare"
+    },
+    "disc_pendant": {
+        "coordinates": [16,3],
+        "type": "pendant",
+        "rarity": "uncommon"
+    },
+    "cross_pendant": {
+        "coordinates": [16,4],
+        "type": "pendant",
+        "rarity": "rare"
+    },
+    "stone_pendant": {
+        "coordinates": [16,5],
+        "type": "pendant",
+        "rarity": "common"
+    },
+    "ankh": {
+        "coordinates": [16,6],
+        "type": "pendant",
+        "rarity": "epic"
+    },
+    "gold_emerald_ring": {
+        "coordinates": [17,0],
+        "type": "ring",
+        "rarity": "epic"
+    },
+    "gold_band_ring": {
+        "coordinates": [17,1],
+        "type": "ring",
+        "rarity": "uncommon"
+    },
+    "green_signet_ring": {
+        "coordinates": [17,2],
+        "type": "ring",
+        "rarity": "rare"
+    },
+    "ruby_ring": {
+        "coordinates": [17,3],
+        "type": "ring",
+        "rarity": "epic"
+    },
+    "sapphire_ring": {
+        "coordinates": [17,4],
+        "type": "ring",
+        "rarity": "epic"
+    },
+    "onyx_ring": {
+        "coordinates": [17,5],
+        "type": "ring",
+        "rarity": "epic"
+    },
+    "gold_signet_ring": {
+        "coordinates": [18,0],
+        "type": "ring",
+        "rarity": "rare"
+    },
+    "silver_signet_ring": {
+        "coordinates": [18,1],
+        "type": "ring",
+        "rarity": "uncommon"
+    },
+    "jade_ring": {
+        "coordinates": [18,2],
+        "type": "ring",
+        "rarity": "rare"
+    },
+    "silver_signet_ring_2": {
+        "coordinates": [18,3],
+        "type": "ring",
+        "rarity": "uncommon"
+    },
+    "twisted_gold_ring": {
+        "coordinates": [18,4],
+        "type": "ring",
+        "rarity": "rare"
+    },
+    "twisted_metal_ring": {
+        "coordinates": [18,5],
+        "type": "ring",
+        "rarity": "uncommon"
+    },
+    "purple_potion": {
+        "coordinates": [19,0],
+        "type": "potion",
+        "rarity": "rare"
+    },
+    "red_potion": {
+        "coordinates": [19,1],
+        "type": "potion",
+        "rarity": "uncommon"
+    },
+    "brown_vial": {
+        "coordinates": [19,2],
+        "type": "potion",
+        "rarity": "common"
+    },
+    "large_dark_potion": {
+        "coordinates": [19,3],
+        "type": "potion",
+        "rarity": "epic"
+    },
+    "green_potion": {
+        "coordinates": [19,4],
+        "type": "potion",
+        "rarity": "uncommon"
+    },
+    "black_potion": {
+        "coordinates": [20,0],
+        "type": "potion",
+        "rarity": "epic"
+    },
+    "bright_green_potion": {
+        "coordinates": [20,1],
+        "type": "potion",
+        "rarity": "rare"
+    },
+    "pink_vial": {
+        "coordinates": [20,2],
+        "type": "potion",
+        "rarity": "uncommon"
+    },
+    "blue_potion": {
+        "coordinates": [20,3],
+        "type": "potion",
+        "rarity": "rare"
+    },
+    "orange_potion": {
+        "coordinates": [20,4],
+        "type": "potion",
+        "rarity": "uncommon"
+    },
+    "scroll": {
+        "coordinates": [21,0],
+        "type": "tome",
+        "rarity": "uncommon"
+    },
+    "book": {
+        "coordinates": [21,1],
+        "type": "tome",
+        "rarity": "uncommon"
+    },
+    "red_book": {
+        "coordinates": [21,2],
+        "type": "tome",
+        "rarity": "rare"
+    },
+    "dark_tome": {
+        "coordinates": [21,3],
+        "type": "tome",
+        "rarity": "epic"
+    },
+    "tome": {
+        "coordinates": [21,4],
+        "type": "tome",
+        "rarity": "rare"
+    },
+    "tome_2": {
+        "coordinates": [21,5],
+        "type": "tome",
+        "rarity": "rare"
+    },
+    "scroll_2": {
+        "coordinates": [21,6],
+        "type": "tome",
+        "rarity": "rare"
+    },
+    "page": {
+        "coordinates": [21,7],
+        "type": "tome",
+        "rarity": "common"
+    },
+    "gold_key": {
+        "coordinates": [22,0],
+        "type": "key",
+        "rarity": "rare"
+    },
+    "ornate_key": {
+        "coordinates": [22,1],
+        "type": "key",
+        "rarity": "epic"
+    },
+    "metal_key": {
+        "coordinates": [22,2],
+        "type": "key",
+        "rarity": "common"
+    },
+    "primitive_key": {
+        "coordinates": [22,3],
+        "type": "key",
+        "rarity": "common"
+    },
+    "arrow": {
+        "coordinates": [23,0],
+        "type": "ammo",
+        "rarity": "common"
+    },
+    "arrows": {
+        "coordinates": [23,1],
+        "type": "ammo",
+        "rarity": "common"
+    },
+    "bolt": {
+        "coordinates": [23,2],
+        "type": "ammo",
+        "rarity": "common"
+    },
+    "bolts": {
+        "coordinates": [23,3],
+        "type": "ammo",
+        "rarity": "common"
+    },
+    "coin": {
+        "coordinates": [24,0],
+        "type": "money",
+        "rarity": "common"
+    },
+    "small_stacks_of_coins": {
+        "coordinates": [24,1],
+        "type": "money",
+        "rarity": "uncommon"
+    },
+    "large_stacks_of_coins": {
+        "coordinates": [24,2],
+        "type": "money",
+        "rarity": "rare"
+    },
+    "coin_purse": {
+        "coordinates": [24,3],
+        "type": "money",
+        "rarity": "uncommon"
+    },
+    "bottle_of_water": {
+        "coordinates": [24,4],
+        "type": "food",
+        "rarity": "common"
+    },
+    "cheese": {
+        "coordinates": [25,0],
+        "type": "food",
+        "rarity": "common"
+    },
+    "bread": {
+        "coordinates": [25,1],
+        "type": "food",
+        "rarity": "common"
+    },
+    "apple": {
+        "coordinates": [25,2],
+        "type": "food",
+        "rarity": "common"
+    },
+    "bottle_of_beer": {
+        "coordinates": [25,3],
+        "type": "food",
+        "rarity": "uncommon"
+    }
+}

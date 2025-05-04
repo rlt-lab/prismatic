@@ -1,17 +1,21 @@
 def check_collision(grid, x, y):
-    """
-    Check if the given position collides with a tile that has collision enabled.
-    :param grid: The 2D list of Tile objects representing the map.
-    :param x: The x-coordinate in pixels.
-    :param y: The y-coordinate in pixels.
-    :return: True if there is a collision, False otherwise.
-    """
-    tile_x = x // 32  # Convert pixel position to grid position
-    tile_y = y // 32
+    """Check if position collides with a tile."""
+    tile_x, tile_y = x // 32, y // 32
+    if not (0 <= tile_y < len(grid) and 0 <= tile_x < len(grid[0])):
+        return True  # Out-of-bounds is a collision
+    return grid[tile_y][tile_x].collision
 
-    # Ensure the position is within the bounds of the grid
-    if tile_y < 0 or tile_y >= len(grid) or tile_x < 0 or tile_x >= len(grid[0]):
-        return True  # Treat out-of-bounds as a collision
+def check_area_collision(grid, rect):
+    """Check if any tile in a rectangular area has collision."""
+    for y in range(rect.top // 32, rect.bottom // 32):
+        for x in range(rect.left // 32, rect.right // 32):
+            if check_collision(grid, x * 32, y * 32):
+                return True
+    return False
 
-    tile = grid[tile_y][tile_x]
-    return tile.collision
+def is_tile_walkable(grid, x, y):
+    """Check if a specific tile is walkable."""
+    tile_x, tile_y = x // 32, y // 32
+    if not (0 <= tile_y < len(grid) and 0 <= tile_x < len(grid[0])):
+        return False  # Out-of-bounds is not walkable
+    return not grid[tile_y][tile_x].collision

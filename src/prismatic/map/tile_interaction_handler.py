@@ -10,7 +10,6 @@ class TileInteractionHandler:
     def handle_tile_interaction(self, current_tile):
         """
         Handle interactions based on the current tile type.
-        :param current_tile: The Tile object the player is currently on.
         """
         tile_type = current_tile.tile_type
 
@@ -20,6 +19,8 @@ class TileInteractionHandler:
             "PITFALL": "PITFALL",
             "DOOR_OPEN": "DOOR_OPEN",
             "WALL": "HIT_WALL",
+            "WALL_TOP": "HIT_WALL_TOP",
+            "WALL_SIDE": "HIT_WALL_SIDE",
         }
 
         # Handle entering a new tile type
@@ -31,3 +32,7 @@ class TileInteractionHandler:
 
         # Update the last tile type
         self.last_tile_type = tile_type
+
+    def reset_last_tile(self):
+        """Reset the last tile type."""
+        self.last_tile_type = None

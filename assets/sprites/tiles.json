@@ -1,0 +1,96 @@
+{
+  "spritesheet": "assets/sprites/tiles.png",
+  "walls": {
+    "dirt": {
+      "top": [0,0],
+      "side": [0,1],
+      "inner": [0,2]
+    },
+    "rough_stone": {
+      "top": [1,0],
+      "side": [1,1]
+    },
+    "stone_brick": {
+      "top": [2,0],
+      "side_1": [2,1],
+      "side_2": [2,2]
+    },
+    "igneous": {
+      "top": [3,0],
+      "side": [3,1]
+    },
+    "large_stone": {
+      "top": [4,0],
+      "side": [4,1]
+    },
+    "catacombs_skull": {
+      "top": [5,0],
+      "side": [5,1]
+    }
+  },
+  "floors": {
+    "stone": {
+      "blank_dark_grey": [6,0],
+      "stone_1": [6,1],
+      "stone_2": [6,2],
+      "stone_3": [6,3],
+      "stone_1_no_bg": [6,4],
+      "stone_2_no_bg": [6,5],
+      "stone_3_no_bg": [6,6]
+    },
+    "grass": {
+      "blank_dark_purple": [7,0],
+      "grass_1": [7,1],
+      "grass_2": [7,2],
+      "grass_3": [7,3],
+      "grass_1_no_bg": [7,4],
+      "grass_2_no_bg": [7,5],
+      "grass_3_no_bg": [7,6]
+    },
+    "dirt": {
+      "dirt_1": [8,1],
+      "dirt_2": [8,2],
+      "dirt_3": [8,3],
+      "dirt_1_no_bg": [8,4],
+      "dirt_2_no_bg": [8,5],
+      "dirt_3_no_bg": [8,6]
+    }
+  },
+  "objects": {
+    "doors": {
+      "door_1": [16,0],
+      "door_2": [16,1],
+      "framed_door_1_shut": [16,2],
+      "framed_door_1_open": [16,3],
+      "framed_door_2_shut": [16,4],
+      "framed_door_2_open": [16,5],
+      "grated_door": [16,6]
+    },
+    "furniture": {
+      "chest_closed": [17,0],
+      "chest_open": [17,1],
+      "jar_closed": [17,2],
+      "jar_open": [17,3],
+      "barrel": [17,4],
+      "ore_sack": [17,5],
+      "log_pile": [17,6]
+    }
+  },
+  "vegetation": {
+    "plants": {
+      "buckwheat": [19,0],
+      "flax": [19,1],
+      "papyrus_sedge": [19,2],
+      "kenaf": [19,3],
+      "ramie": [19,4],
+      "jute": [19,5],
+      "rice": [19,6]
+    },
+    "trees": {
+      "sapling": [25,0],
+      "small_tree": [25,1],
+      "tree": [25,2],
+      "two_tile_tree": [25,3]
+    }
+  }
+}

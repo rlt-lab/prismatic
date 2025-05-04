@@ -1,0 +1,323 @@
+{
+    "spritesheet": "assets/sprites/monsters.png",
+    "orc": {
+        "coordinates": [0,0],
+        "combat_difficulty": "medium",
+        "loot_table": ["coin", "small_stacks_of_coins", "dagger", "hand_axe", "leather_armor"]
+    },
+    "orc_wizard": {
+        "coordinates": [0,1],
+        "combat_difficulty": "hard",
+        "loot_table": ["blue_staff", "purple_potion", "tome", "robe", "scroll"]
+    },
+    "goblin": {
+        "coordinates": [0,2],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "dagger", "club", "cloth_armor"]
+    },
+    "orc_blademaster": {
+        "coordinates": [0,3],
+        "combat_difficulty": "hard",
+        "loot_table": ["scimitar", "large_scimitar", "leather_armor", "small_stacks_of_coins", "red_potion"]
+    },
+    "orc_warchief": {
+        "coordinates": [0,4],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["battle_axe", "great_axe", "chest_plate", "large_stacks_of_coins", "red_potion", "purple_potion"]
+    },
+    "goblin_archer": {
+        "coordinates": [0,5],
+        "combat_difficulty": "medium",
+        "loot_table": ["short_bow", "arrows", "cloth_armor", "dagger", "coin"]
+    },
+    "goblin_mage": {
+        "coordinates": [0,6],
+        "combat_difficulty": "hard",
+        "loot_table": ["blue_staff", "robe", "blue_potion", "scroll", "tome"]
+    },
+    "goblin_brute": {
+        "coordinates": [0,7],
+        "combat_difficulty": "medium",
+        "loot_table": ["club", "club_with_nails", "leather_armor", "small_stacks_of_coins"]
+    },
+    "ettin": {
+        "coordinates": [1,0],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["great_club", "great_hammer", "large_stacks_of_coins", "large_stacks_of_coins"]
+    },
+    "two_headed_ettin": {
+        "coordinates": [1,1],
+        "combat_difficulty": "boss",
+        "loot_table": ["giant_axe", "great_club", "large_stacks_of_coins", "large_stacks_of_coins", "large_dark_potion"]
+    },
+    "troll": {
+        "coordinates": [1,2],
+        "combat_difficulty": "hard",
+        "loot_table": ["great_club", "large_stacks_of_coins", "green_potion", "leather_armor"]
+    },
+    "small_slime": {
+        "coordinates": [2,0],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "green_potion"]
+    },
+    "big_slime": {
+        "coordinates": [2,1],
+        "combat_difficulty": "medium",
+        "loot_table": ["small_stacks_of_coins", "green_potion", "bright_green_potion"]
+    },
+    "slimebody": {
+        "coordinates": [2,2],
+        "combat_difficulty": "medium",
+        "loot_table": ["small_stacks_of_coins", "green_potion", "bright_green_potion"]
+    },
+    "merged_slimebodies": {
+        "coordinates": [2,3],
+        "combat_difficulty": "hard",
+        "loot_table": ["large_stacks_of_coins", "bright_green_potion", "large_dark_potion"]
+    },
+    "faceless_monk": {
+        "coordinates": [3,0],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["blue_crystal_staff", "robe", "large_stacks_of_coins", "dark_tome", "large_dark_potion"]
+    },
+    "unholy_cardinal": {
+        "coordinates": [3,1],
+        "combat_difficulty": "boss",
+        "loot_table": ["red_crystal_staff", "robe", "large_stacks_of_coins", "dark_tome", "cross_pendant", "black_potion"]
+    },
+    "skeleton": {
+        "coordinates": [4,0],
+        "combat_difficulty": "easy",
+        "loot_table": ["dagger", "short_sword", "buckler", "coin"]
+    },
+    "skeleton_archer": {
+        "coordinates": [4,1],
+        "combat_difficulty": "medium",
+        "loot_table": ["short_bow", "arrows", "dagger", "small_stacks_of_coins"]
+    },
+    "lich": {
+        "coordinates": [4,2],
+        "combat_difficulty": "boss",
+        "loot_table": ["red_crystal_staff", "dark_tome", "dark_tome", "large_stacks_of_coins", "large_dark_potion", "onyx_ring"]
+    },
+    "death_knight": {
+        "coordinates": [4,3],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["evil_sword", "dark_shield", "chest_plate", "plate_helm_2", "large_stacks_of_coins"]
+    },
+    "zombie": {
+        "coordinates": [4,4],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "brown_vial", "cloth_armor"]
+    },
+    "ghoul": {
+        "coordinates": [4,5],
+        "combat_difficulty": "medium",
+        "loot_table": ["small_stacks_of_coins", "brown_vial", "black_potion"]
+    },
+    "banshee": {
+        "coordinates": [5,0],
+        "combat_difficulty": "hard",
+        "loot_table": ["blue_potion", "purple_potion", "cross_pendant", "large_stacks_of_coins"]
+    },
+    "reaper": {
+        "coordinates": [5,1],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["large_flamberge", "dark_tome", "black_potion", "large_stacks_of_coins", "onyx_ring"]
+    },
+    "wraith": {
+        "coordinates": [5,2],
+        "combat_difficulty": "hard",
+        "loot_table": ["large_stacks_of_coins", "dark_tome", "black_potion", "purple_potion"]
+    },
+    "cultist": {
+        "coordinates": [5,3],
+        "combat_difficulty": "medium",
+        "loot_table": ["dagger", "sanguine_dagger", "robe", "small_stacks_of_coins", "dark_tome"]
+    },
+    "hag_witch": {
+        "coordinates": [5,4],
+        "combat_difficulty": "hard",
+        "loot_table": ["magic_dagger", "robe", "purple_potion", "black_potion", "large_stacks_of_coins"]
+    },
+    "giant_centipede": {
+        "coordinates": [6,0],
+        "combat_difficulty": "medium",
+        "loot_table": ["brown_vial", "green_potion", "small_stacks_of_coins"]
+    },
+    "lampreymander": {
+        "coordinates": [6,1],
+        "combat_difficulty": "hard",
+        "loot_table": ["purple_potion", "bright_green_potion", "large_stacks_of_coins"]
+    },
+    "giant_earthworm": {
+        "coordinates": [6,2],
+        "combat_difficulty": "medium",
+        "loot_table": ["brown_vial", "green_potion", "small_stacks_of_coins"]
+    },
+    "manticore": {
+        "coordinates": [6,3],
+        "combat_difficulty": "boss",
+        "loot_table": ["large_stacks_of_coins", "large_stacks_of_coins", "ruby_ring", "purple_potion", "giant_axe"]
+    },
+    "giant_ant": {
+        "coordinates": [6,4],
+        "combat_difficulty": "medium",
+        "loot_table": ["small_stacks_of_coins", "brown_vial"]
+    },
+    "lycanthrope": {
+        "coordinates": [6,5],
+        "combat_difficulty": "hard",
+        "loot_table": ["large_scimitar", "leather_armor", "large_stacks_of_coins"]
+    },
+    "giant_bat": {
+        "coordinates": [6,6],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "brown_vial"]
+    },
+    "lesser_giant_ant": {
+        "coordinates": [6,7],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin"]
+    },
+    "giant_spider": {
+        "coordinates": [6,8],
+        "combat_difficulty": "hard",
+        "loot_table": ["green_potion", "purple_potion", "small_stacks_of_coins"]
+    },
+    "lesser_giant_spider": {
+        "coordinates": [6,9],
+        "combat_difficulty": "medium",
+        "loot_table": ["green_potion", "small_stacks_of_coins"]
+    },
+    "warg_dire_wolf": {
+        "coordinates": [6,10],
+        "combat_difficulty": "hard",
+        "loot_table": ["leather_armor", "small_stacks_of_coins", "red_potion"]
+    },
+    "giant_rat": {
+        "coordinates": [6,11],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "cheese"]
+    },
+    "dryad": {
+        "coordinates": [7,0],
+        "combat_difficulty": "medium",
+        "loot_table": ["druid_staff", "green_potion", "bright_green_potion", "small_stacks_of_coins"]
+    },
+    "wendigo": {
+        "coordinates": [7,1],
+        "combat_difficulty": "hard",
+        "loot_table": ["great_club", "large_stacks_of_coins", "red_potion"]
+    },
+    "rock_golem": {
+        "coordinates": [7,2],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["great_hammer", "large_stacks_of_coins", "large_stacks_of_coins"]
+    },
+    "centaur": {
+        "coordinates": [7,3],
+        "combat_difficulty": "medium",
+        "loot_table": ["long_bow", "arrows", "spear", "leather_armor", "small_stacks_of_coins"]
+    },
+    "naga": {
+        "coordinates": [7,4],
+        "combat_difficulty": "hard",
+        "loot_table": ["trident", "blue_potion", "large_stacks_of_coins"]
+    },
+    "forest_spirit": {
+        "coordinates": [7,5],
+        "combat_difficulty": "medium",
+        "loot_table": ["druid_staff", "bright_green_potion", "green_potion", "small_stacks_of_coins"]
+    },
+    "satyr": {
+        "coordinates": [7,6],
+        "combat_difficulty": "medium",
+        "loot_table": ["short_bow", "arrows", "wine", "small_stacks_of_coins"]
+    },
+    "minotaur": {
+        "coordinates": [7,7],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["great_axe", "large_stacks_of_coins", "large_stacks_of_coins", "red_potion"]
+    },
+    "harpy": {
+        "coordinates": [7,8],
+        "combat_difficulty": "medium",
+        "loot_table": ["dagger", "short_spear", "small_stacks_of_coins"]
+    },
+    "gorgon_medusa": {
+        "coordinates": [7,9],
+        "combat_difficulty": "boss",
+        "loot_table": ["magic_dagger", "crystal_pendant", "large_stacks_of_coins", "large_stacks_of_coins", "black_potion"]
+    },
+    "lizardfolk_kobold_reptile": {
+        "coordinates": [8,0],
+        "combat_difficulty": "medium",
+        "loot_table": ["spear", "short_sword", "leather_armor", "small_stacks_of_coins"]
+    },
+    "drake_lesser_dragon": {
+        "coordinates": [8,1],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["flame_sword", "large_stacks_of_coins", "red_potion", "large_dark_potion"]
+    },
+    "dragon": {
+        "coordinates": [8,2],
+        "combat_difficulty": "boss",
+        "loot_table": ["flame_sword", "flame_staff", "large_stacks_of_coins", "large_stacks_of_coins", "large_stacks_of_coins", "ruby_ring", "gold_emerald_ring"]
+    },
+    "cockatrice": {
+        "coordinates": [8,3],
+        "combat_difficulty": "hard",
+        "loot_table": ["bright_green_potion", "purple_potion", "large_stacks_of_coins"]
+    },
+    "basilisk": {
+        "coordinates": [8,4],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["black_potion", "purple_potion", "large_stacks_of_coins", "large_stacks_of_coins"]
+    },
+    "small_kobold_canine": {
+        "coordinates": [9,0],
+        "combat_difficulty": "easy",
+        "loot_table": ["coin", "dagger"]
+    },
+    "kobold_canine": {
+        "coordinates": [9,1],
+        "combat_difficulty": "medium",
+        "loot_table": ["short_sword", "leather_armor", "small_stacks_of_coins"]
+    },
+    "small_myconid": {
+        "coordinates": [10,0],
+        "combat_difficulty": "easy",
+        "loot_table": ["green_potion", "coin"]
+    },
+    "large_myconid": {
+        "coordinates": [10,1],
+        "combat_difficulty": "medium",
+        "loot_table": ["bright_green_potion", "green_potion", "small_stacks_of_coins"]
+    },
+    "angel_archangel": {
+        "coordinates": [11,0],
+        "combat_difficulty": "boss",
+        "loot_table": ["saints_staff", "holy_staff", "ankh", "cross_pendant", "large_stacks_of_coins", "large_stacks_of_coins"]
+    },
+    "imp_devil": {
+        "coordinates": [11,1],
+        "combat_difficulty": "medium",
+        "loot_table": ["sanguine_dagger", "small_stacks_of_coins", "red_potion"]
+    },
+    "small_writhing_mass": {
+        "coordinates": [12,0],
+        "combat_difficulty": "medium",
+        "loot_table": ["black_potion", "bright_green_potion", "small_stacks_of_coins"]
+    },
+    "large_writhing_mass": {
+        "coordinates": [12,1],
+        "combat_difficulty": "hard",
+        "loot_table": ["large_dark_potion", "black_potion", "large_stacks_of_coins"]
+    },
+    "writhing_humanoid": {
+        "coordinates": [12,2],
+        "combat_difficulty": "very_hard",
+        "loot_table": ["evil_sword", "dark_tome", "large_dark_potion", "large_stacks_of_coins", "black_potion"]
+    }
+}

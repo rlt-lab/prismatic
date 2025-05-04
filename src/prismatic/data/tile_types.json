@@ -46,5 +46,13 @@
     "PITFALL": {
         "collision": false,
         "color": [0, 0, 0]
+    },
+    "WALL_TOP": {
+        "collision": true,
+        "color": [100, 100, 100]
+    },
+    "WALL_SIDE": {
+        "collision": true,
+        "color": [70, 70, 70]
     }
 }

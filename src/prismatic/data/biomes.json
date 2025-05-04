@@ -1,5 +1,269 @@
 {
-    "test_biome": {  
-        "allowed_tiles": ["FLOOR", "WALL"]
+  "biomes": {
+    "test": {
+      "name": "Test Area",
+      "description": "A simple area for testing game mechanics",
+      "availableTiles": ["FLOOR", "WALL", "WALL_TOP", "WALL_SIDE", "PLAYER_SPAWN", "UPSTAIRS", "DOWNSTAIRS", "DOOR_OPEN", "DOOR_CLOSED", "SWITCH_ON", "SWITCH_OFF", "PITFALL"],
+      "tileAssets": {
+        "FLOOR": [
+          {"asset": "floors.stone.stone_1", "weight": 5},
+          {"asset": "floors.stone.stone_2", "weight": 3},
+          {"asset": "floors.stone.stone_3", "weight": 2}
+        ],
+        "WALL": [
+          {"asset": "walls.stone_brick.top", "weight": 5}
+        ],
+        "WALL_TOP": [
+          {"asset": "walls.stone_brick.top", "weight": 1}
+        ],
+        "WALL_SIDE": [
+          {"asset": "walls.stone_brick.side_1", "weight": 1}
+        ],
+        "DOOR_OPEN": [
+          {"asset": "objects.doors.framed_door_1_open", "weight": 1}
+        ],
+        "DOOR_CLOSED": [
+          {"asset": "objects.doors.framed_door_1_shut", "weight": 1}
+        ],
+        "SWITCH_ON": [
+          {"asset": [5, 4], "weight": 1}
+        ],
+        "SWITCH_OFF": [
+          {"asset": [6, 4], "weight": 1}
+        ],
+        "UPSTAIRS": [
+          {"asset": [0, 4], "weight": 1}
+        ],
+        "DOWNSTAIRS": [
+          {"asset": [1, 4], "weight": 1}
+        ],
+        "PITFALL": [
+          {"asset": [2, 4], "weight": 1}
+        ],
+        "PLAYER_SPAWN": [
+          {"asset": [0, 5], "weight": 1}
+        ]
+      },
+      "settings": {
+        "wallDensity": 0.4,
+        "lighting": 0.7,
+        "ambientColor": "#FFFFFF",
+        "caParams": {
+          "iterations": 3,
+          "birthLimit": 4,
+          "deathLimit": 3,
+          "chanceToStartAlive": 0.4
+        }
+      }
+    },
+    "caverns": {
+      "name": "Underground Caverns",
+      "description": "Dark, damp underground passages filled with stalactites",
+      "availableTiles": ["FLOOR", "WALL", "WALL_TOP", "WALL_SIDE", "UPSTAIRS", "DOWNSTAIRS", "PITFALL"],
+      "tileAssets": {
+        "FLOOR": [
+          {"asset": "floors.stone.stone_1", "weight": 5},
+          {"asset": "floors.stone.stone_2", "weight": 2},
+          {"asset": "floors.stone.stone_3", "weight": 1}
+        ],
+        "WALL": [
+          {"asset": "walls.rough_stone.top", "weight": 4},
+          {"asset": "walls.igneous.top", "weight": 2}
+        ],
+        "WALL_TOP": [
+          {"asset": "walls.rough_stone.top", "weight": 5},
+          {"asset": "walls.igneous.top", "weight": 2}
+        ],
+        "WALL_SIDE": [
+          {"asset": "walls.rough_stone.side", "weight": 4},
+          {"asset": "walls.igneous.side", "weight": 2}
+        ],
+        "UPSTAIRS": [
+          {"asset": [0, 4], "weight": 1}
+        ],
+        "DOWNSTAIRS": [
+          {"asset": [1, 4], "weight": 1}
+        ],
+        "PITFALL": [
+          {"asset": [2, 4], "weight": 1}
+        ],
+        "PLAYER_SPAWN": [
+          {"asset": [0, 5], "weight": 1}
+        ]
+      },
+      "settings": {
+        "wallDensity": 0.6,
+        "lighting": 0.3,
+        "ambientColor": "#3355AA",
+        "caParams": {
+          "iterations": 4,
+          "birthLimit": 4,
+          "deathLimit": 3,
+          "chanceToStartAlive": 0.5
+        }
+      }
+    },
+    "undergrove": {
+      "name": "Undergrove",
+      "description": "A mysterious underground forest with bioluminescent vegetation",
+      "availableTiles": ["FLOOR", "WALL", "WALL_TOP", "WALL_SIDE", "PLAYER_SPAWN", "UPSTAIRS", "DOWNSTAIRS"],
+      "tileAssets": {
+        "FLOOR": [
+          {"asset": "floors.grass.grass_1", "weight": 4},
+          {"asset": "floors.grass.grass_2", "weight": 3},
+          {"asset": "floors.grass.grass_3", "weight": 3}
+        ],
+        "WALL": [
+          {"asset": "walls.dirt.top", "weight": 5},
+          {"asset": "walls.rough_stone.top", "weight": 2}
+        ],
+        "WALL_TOP": [
+          {"asset": "walls.dirt.top", "weight": 5},
+          {"asset": "walls.rough_stone.top", "weight": 2}
+        ],
+        "WALL_SIDE": [
+          {"asset": "walls.dirt.side", "weight": 5},
+          {"asset": "walls.rough_stone.side", "weight": 2}
+        ],
+        "UPSTAIRS": [
+          {"asset": [0, 4], "weight": 1}
+        ],
+        "DOWNSTAIRS": [
+          {"asset": [1, 4], "weight": 1}
+        ],
+        "PLAYER_SPAWN": [
+          {"asset": [0, 5], "weight": 1}
+        ]
+      },
+      "settings": {
+        "wallDensity": 0.5,
+        "lighting": 0.5,
+        "ambientColor": "#33AA55",
+        "caParams": {
+          "iterations": 5,
+          "birthLimit": 3,
+          "deathLimit": 4,
+          "chanceToStartAlive": 0.45
+        }
+      }
+    },
+    "labyrinth": {
+      "name": "Ancient Labyrinth",
+      "description": "A complex network of stone corridors and chambers",
+      "availableTiles": ["FLOOR", "WALL", "WALL_TOP", "WALL_SIDE", "DOOR_OPEN", "DOOR_CLOSED", "SWITCH_ON", "SWITCH_OFF", "PITFALL", "UPSTAIRS", "DOWNSTAIRS"],
+      "tileAssets": {
+        "FLOOR": [
+          {"asset": "floors.stone.stone_1", "weight": 3},
+          {"asset": "floors.stone.stone_2", "weight": 3},
+          {"asset": "floors.stone.blank_dark_grey", "weight": 4}
+        ],
+        "WALL": [
+          {"asset": "walls.stone_brick.top", "weight": 7},
+          {"asset": "walls.large_stone.top", "weight": 3}
+        ],
+        "WALL_TOP": [
+          {"asset": "walls.stone_brick.top", "weight": 5},
+          {"asset": "walls.large_stone.top", "weight": 2}
+        ],
+        "WALL_SIDE": [
+          {"asset": "walls.stone_brick.side_1", "weight": 4},
+          {"asset": "walls.stone_brick.side_2", "weight": 2},
+          {"asset": "walls.large_stone.side", "weight": 2}
+        ],
+        "DOOR_OPEN": [
+          {"asset": "objects.doors.framed_door_1_open", "weight": 1}
+        ],
+        "DOOR_CLOSED": [
+          {"asset": "objects.doors.framed_door_1_shut", "weight": 1}
+        ],
+        "SWITCH_ON": [
+          {"asset": [5, 4], "weight": 1}
+        ],
+        "SWITCH_OFF": [
+          {"asset": [6, 4], "weight": 1}
+        ],
+        "PITFALL": [
+          {"asset": [7, 4], "weight": 1}
+        ],
+        "UPSTAIRS": [
+          {"asset": [3, 5], "weight": 1}
+        ],
+        "DOWNSTAIRS": [
+          {"asset": [4, 5], "weight": 1}
+        ],
+        "PLAYER_SPAWN": [
+          {"asset": [5, 5], "weight": 1}
+        ]
+      },
+      "settings": {
+        "wallDensity": 0.65,
+        "lighting": 0.4,
+        "ambientColor": "#775533",
+        "caParams": {
+          "iterations": 4,
+          "birthLimit": 3,
+          "deathLimit": 2,
+          "chanceToStartAlive": 0.45
+        }
+      }
+    },
+    "catacombs": {
+      "name": "Forgotten Catacombs",
+      "description": "Ancient burial chambers filled with the remnants of the past",
+      "availableTiles": ["FLOOR", "WALL", "WALL_TOP", "WALL_SIDE", "DOOR_OPEN", "DOOR_CLOSED", "PITFALL", "UPSTAIRS", "DOWNSTAIRS"],
+      "tileAssets": {
+        "FLOOR": [
+          {"asset": "floors.stone.stone_1", "weight": 4},
+          {"asset": "floors.stone.stone_2", "weight": 3},
+          {"asset": "floors.dirt.dirt_1", "weight": 2}
+        ],
+        "WALL": [
+          {"asset": "walls.catacombs_skull.top", "weight": 4},
+          {"asset": "walls.stone_brick.top", "weight": 6}
+        ],
+        "WALL_TOP": [
+          {"asset": "walls.catacombs_skull.top", "weight": 3},
+          {"asset": "walls.stone_brick.top", "weight": 7}
+        ],
+        "WALL_SIDE": [
+          {"asset": "walls.catacombs_skull.side", "weight": 3},
+          {"asset": "walls.stone_brick.side_1", "weight": 7}
+        ],
+        "DOOR_OPEN": [
+          {"asset": "objects.doors.grated_door", "weight": 1}
+        ],
+        "DOOR_CLOSED": [
+          {"asset": "objects.doors.framed_door_2_shut", "weight": 1}
+        ],
+        "PITFALL": [
+          {"asset": [2, 4], "weight": 1}
+        ],
+        "UPSTAIRS": [
+          {"asset": [0, 4], "weight": 1}
+        ],
+        "DOWNSTAIRS": [
+          {"asset": [1, 4], "weight": 1}
+        ],
+        "PLAYER_SPAWN": [
+          {"asset": [0, 5], "weight": 1}
+        ]
+      },
+      "settings": {
+        "wallDensity": 0.55,
+        "lighting": 0.25,
+        "ambientColor": "#554433",
+        "caParams": {
+          "iterations": 3,
+          "birthLimit": 4,
+          "deathLimit": 3,
+          "chanceToStartAlive": 0.5
+        }
+      }
     }
+  },
+  "settings": {
+    "tileSize": 32,
+    "spriteSheetPath": "assets/sprites/tiles.png",
+    "defaultBiome": "caverns"
+  }
 }
